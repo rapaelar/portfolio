@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido a Mi Portfolio</h1>
-    <p>Este es mi primer sitio web.</p>
+    <header>
+        <h1>Mi Portfolio</h1>
+    </header>
+
+    <section>
+        <h2>Sobre Mí</h2>
+        <p>Bienvenido a mi portfolio. Soy [Tu Nombre], un apasionado [tu profesión] con experiencia en [tus habilidades].</p>
+    </section>
+
+    <section>
+        <h2>Proyectos Destacados</h2>
+        <p>Aquí puedes destacar algunos de tus proyectos más importantes.</p>
+        <!-- Puedes agregar enlaces, descripciones, imágenes, etc. para cada proyecto -->
+    </section>
+
+    <section>
+        <h2>Habilidades</h2>
+        <p>Mis habilidades incluyen [lista de habilidades].</p>
+    </section>
+
+    <section>
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en [tu correo electrónico] o seguirme en [tus perfiles de redes sociales].</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Portfolio</p>
+    </footer>
 </body>
 </html>
